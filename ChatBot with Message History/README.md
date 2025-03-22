@@ -22,3 +22,9 @@ Key features:
    ```bash
    git clone https://github.com/yourusername/chatbot-with-message-history.git
    cd chatbot-with-message-history
+2. **Set Up a Virtual Environment:**
+   - Using venv
+     ```bash
+        python -m venv env
+        source env/bin/activate  # macOS/Linux
+        env\Scripts\activate     # Windows
