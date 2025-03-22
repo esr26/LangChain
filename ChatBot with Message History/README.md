@@ -61,6 +61,12 @@ Key features:
    - Input: "I like blue color"
    - Response: (Bot replies based on Groq model)
    - Save, reset, then ask "What color do I like?" → Won’t remember post-reset.
+  
+
+### Example Screenshots:
+
+![Uploading image.png…]()
+
      
 
 
