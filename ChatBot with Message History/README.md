@@ -43,7 +43,24 @@ Key features:
         ```bash
         echo "GROQ_API_KEY=your-groq-api-key-here" > .env
       - Replace your-groq-api-key-here with your Groq API key.
-     
+##Usage
+1. **Run the App:**
+   From the project directory:
+      ```bashh
+      streamlit run chatbot.py --server.fileWatcherType none
+  - The --server.fileWatcherType none flag avoids a known Streamlit/PyTorch compatibility issue.
+  - Open http://localhost:8501 in your browser.
+
+2. **Interact with the Chatbot:**
+   - Chat: Type messages in the input box (e.g., "I like blue color") and press Enter.
+   - New Session: Click "Start New Session" to reset memory and history.
+   - Save Session: Click "Save Session" to persist the FAISS vector store to disk (faiss_index folder).
+   - Automatic New Session: Start with a fresh session using http://localhost:8501/?new_session=true.
+
+3. **Example:**
+   - Input: "I like blue color"
+   - Response: (Bot replies based on Groq model)
+   - Save, reset, then ask "What color do I like?" → Won’t remember post-reset.
      
 
 
