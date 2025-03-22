@@ -65,7 +65,8 @@ Key features:
 
 ### Example Screenshots:
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/bfe66cec-b7a3-43ef-8d5c-d08d75a41b12)
+
 
      
 
