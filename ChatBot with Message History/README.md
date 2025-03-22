@@ -25,6 +25,37 @@ Key features:
 2. **Set Up a Virtual Environment:**
    - Using venv
      ```bash
-        python -m venv env
-        source env/bin/activate  # macOS/Linux
-        env\Scripts\activate     # Windows
+     python -m venv env
+     source env/bin/activate  # macOS/Linux
+     env\Scripts\activate     # Windows
+     
+   - Using Anaconda:
+     ```bash
+     conda create -n env python=3.9
+     conda activate env
+
+   - Install Dependencies:
+     ```bash
+     pip install streamlit langchain langchain-groq langchain-community faiss-cpu sentence-transformers python-dotenv
+
+   - Configure Environment Variables:
+      - Create a .env file in the project root:
+        ```bash
+        echo "GROQ_API_KEY=your-groq-api-key-here" > .env
+      - Replace your-groq-api-key-here with your Groq API key.
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
